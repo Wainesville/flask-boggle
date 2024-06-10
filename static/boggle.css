@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(38, 154, 208);
+}
+.board {
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(67, 67, 180);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 500%;
+    
+  }
+
+  .board td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: white;
+    border-radius: 10%;
+  }
+  
+  .msg {
+    padding: 1em;
+  }
+  
+  .msg.ok {
+    color: white;
+    background-color: green;
+  }
+  
+  .msg.err {
+    color: white;
+    background-color: tomato;
+  }
+
+  #boggle{
+    /* border: 2px solid black; */
+    width: 25%;
+    margin:auto;
+    /* background-color: white; */
+    text-align: center;
+    
+  }
+
+  .words{
+    background-color: white;
+  }
